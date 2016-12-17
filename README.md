@@ -1,4 +1,4 @@
-# color-mri: Color-based visualization of multiparametric MRI data
+# Color-based visualization of multiparametric MRI data
 
 ##Summary
 This code repository can be used to create color-coded visualizations from multiparametric magnetic resonance imaging data. It belongs to the following paper:
