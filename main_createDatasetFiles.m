@@ -14,7 +14,7 @@ function main_createDatasetFiles()
     % --- DIFFUSION PERFUSION BACKGROUND OVERLAY
     
     % Prostate 142 --------------------------------------
-    Dataset.Dir = 'Color_142/Becken_Ikrn_Lang - 1239526/';
+    Dataset.Dir = 'Color_142/ProstateMultivariate/';
     Dataset.Name = 'Prostate_142_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5368/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -30,7 +30,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);     
     
     % Prostate 159 --------------------------------------
-    Dataset.Dir = 'Color_159/Becken_Ikrn_Lang - 1246254/';
+    Dataset.Dir = 'Color_159/ProstateMultivariate/';
     Dataset.Name = 'Prostate_159_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5347/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -46,7 +46,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);     
     
     % Prostate 152 --------------------------------------
-    Dataset.Dir = 'Color_152/Becken_Ikrn_Lang - 1243260/';
+    Dataset.Dir = 'Color_152/ProstateMultivariate/';
     Dataset.Name = 'Prostate_152_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5374/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -62,7 +62,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);     
     
     % Prostate 237 --------------------------------------
-    Dataset.Dir = 'Color_237/Becken_Ikrn_Lang - 1297341/';
+    Dataset.Dir = 'Color_237/ProstateMultivariate/';
     Dataset.Name = 'Prostate_237_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5363/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -78,7 +78,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);     
     
     % Prostate 112 --------------------------------------
-    Dataset.Dir = 'Color_112/Becken_Ikrn_Lang - 1/';
+    Dataset.Dir = 'Color_112/ProstateMultivariate/';
     Dataset.Name = 'Prostate_112_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5409/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -94,7 +94,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);   
 
     % Prostate 121 --------------------------------------
-    Dataset.Dir = 'Color_121/Becken_Ikrn_Lang - 1267209/';
+    Dataset.Dir = 'Color_121/ProstateMultivariate/';
     Dataset.Name = 'Prostate_121_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5372/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -110,7 +110,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);  
     
     % Prostate 186 --------------------------------------
-    Dataset.Dir = 'Color_186/Becken_Ikrn_Mittel - 1261561/';
+    Dataset.Dir = 'Color_186/ProstateMultivariate/';
     Dataset.Name = 'Prostate_186_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5333/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -126,7 +126,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);  
     
     % Prostate 187 --------------------------------------
-    Dataset.Dir = 'Color_187/Becken_Ikrn_Lang - 1262569/';
+    Dataset.Dir = 'Color_187/ProstateMultivariate/';
     Dataset.Name = 'Prostate_187_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5347/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -142,7 +142,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);  
     
     % Prostate 234 --------------------------------------
-    Dataset.Dir = 'Color_234/Ikrn_Sop_Abdomen_Region - 1296997/';
+    Dataset.Dir = 'Color_234/ProstateMultivariate/';
     Dataset.Name = 'Prostate_234_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5349/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -157,10 +157,8 @@ function main_createDatasetFiles()
 
     saveDataset(cnst,Dataset);  
     
-    % added 1st april 2016
-    
     % Prostate 146 --------------------------------------
-    Dataset.Dir = 'Color_146/Becken_Ikrn_Lang - 1240518/';
+    Dataset.Dir = 'Color_146/ProstateMultivariate/';
     Dataset.Name = 'Prostate_146_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5348/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -176,7 +174,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);  
 
     % Prostate 192 --------------------------------------
-    Dataset.Dir = 'Color_192/Becken_Ikrn_Lang - 1234661/';
+    Dataset.Dir = 'Color_192/ProstateMultivariate/';
     Dataset.Name = 'Prostate_192_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5354/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -192,7 +190,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);  
     
     % Prostate 225 --------------------------------------
-    Dataset.Dir = 'Color_225/Ikrn_Sop_Abdomen_Region - 1285224/';
+    Dataset.Dir = 'Color_225/ProstateMultivariate/';
     Dataset.Name = 'Prostate_225_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5399/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -208,7 +206,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);  
     
     % Prostate 226 --------------------------------------
-    Dataset.Dir = 'Color_226/Becken_Ikrn_Lang - 1285877/';
+    Dataset.Dir = 'Color_226/ProstateMultivariate/';
     Dataset.Name = 'Prostate_226_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5383/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -224,7 +222,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);  
 
     % Prostate 227 --------------------------------------
-    Dataset.Dir = 'Color_227/Becken_Ikrn_Lang - 1287148/';
+    Dataset.Dir = 'Color_227/ProstateMultivariate/';
     Dataset.Name = 'Prostate_227_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5364/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -240,7 +238,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);  
 
     % Prostate 238 --------------------------------------
-    Dataset.Dir = 'Color_238/Becken_Ikrn_Lang - 1298498/';
+    Dataset.Dir = 'Color_238/ProstateMultivariate/';
     Dataset.Name = 'Prostate_238_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5396/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -256,7 +254,7 @@ function main_createDatasetFiles()
     saveDataset(cnst,Dataset);  
     
     % Prostate 260 --------------------------------------
-    Dataset.Dir = 'Color_260/Becken_Ikrn_Lang - 1312441/';
+    Dataset.Dir = 'Color_260/ProstateMultivariate/';
     Dataset.Name = 'Prostate_260_ADC_PBF_B800_Backgrounds';
     Dataset.Channel1.Dir = 'resampled_adc_5355/';
     Dataset.Channel1.ShortName = 'ADC';
@@ -270,7 +268,6 @@ function main_createDatasetFiles()
     Dataset.extraMode = 'Backgrounds';
 
     saveDataset(cnst,Dataset); 
-    
 
     
 end
